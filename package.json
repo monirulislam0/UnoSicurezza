@@ -1,0 +1,25 @@
+{
+  "name": "unosicurezza",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monirulislam0/UnoSicurezza.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monirulislam0/UnoSicurezza/issues"
+  },
+  "homepage": "https://github.com/monirulislam0/UnoSicurezza#readme",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "tailwindcss": "^4.1.13",
+    "vite": "^7.1.7"
+  }
+}

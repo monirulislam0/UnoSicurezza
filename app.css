@@ -1,1 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css");
+
 @import "tailwindcss";
+@plugin "daisyui";
+@theme{
+    --color-text-primary: #252525;
+    --color-text-secondary: #fff;
+    --color-text-hover: #73BFA1;
+    --color-heading-primary: #fff;
+    --color-heading-secondary: #fff;
+    --color-heading-hover: #fff;
+
+    --color-bg-primary: #73BFA1;
+    /* Font size */
+
+    --text-size-primary: '18px';
+    --text-size-secondary: '16px';
+    --text-heading-primary: '36px';
+    --text-heading-secondary: '24px';
+
+    /* Font Family */
+    --font-heading-primary: "Poppins", sans-serif;
+    --font-paragraph-primary:  "Plus Jakarta Sans", sans-serif;
+
+
+}
+
+@layer base{
+
+    *{
+        @apply m-0;
+        @apply p-0;
+        @apply font-paragraph-primary;
+    }
+    h1,h2,h3,h4,h5,h6 {
+        @apply font-heading-primary;
+    }
+}

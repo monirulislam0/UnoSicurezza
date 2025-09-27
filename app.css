@@ -6,17 +6,20 @@
 @theme{
     --color-text-primary: #252525;
     --color-text-secondary: #fff;
+
     --color-text-hover: #73BFA1;
     --color-heading-primary: #fff;
-    --color-heading-secondary: #fff;
+    --color-heading-secondary: #505050;
     --color-heading-hover: #fff;
+
+    --color-paragraph-primary: #505050;
 
     --color-bg-primary: #73BFA1;
     /* Font size */
 
     --text-size-primary: '18px';
     --text-size-secondary: '16px';
-    --text-heading-primary: '36px';
+    --text-size-heading-primary: '36px';
     --text-heading-secondary: '24px';
 
     /* Font Family */
